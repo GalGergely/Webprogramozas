@@ -1,4 +1,4 @@
-const temperatures = [12.3, 23.4, 11.2];
+const temperatures = [2.3, 23.4, 11.2, -1];
 function fagyottnapok(temperatures) {
  const out = []
  for(let i = 0; i < temperatures.length; i++)
@@ -21,4 +21,7 @@ console.log(temperatures.reduce((count, t) => t < 20 ? count+1 : count+0, 0));
 console.log(temperatures.some(t => t > 40) );
 
 //egyeni gyakorlas
-console.log(temperatures.some(t => temperatures.filter(t => t < 0).length) < 0);
+//F
+console.log(temperatures.every(t => t > 0))
+//G
+console.log(temperatures.find(t => t > 10));
