@@ -9,8 +9,8 @@
 </head>
 <body>
     <form action="">
-        width : <input type="number" id="width" value="5">
-        height : <input type="number" id="height" value="5">
+        width : <input type="number" id="width" value="20">
+        height : <input type="number" id="height" value="20">
         <button type="button" id="generate-button"></button>
     </form>
     <table class="preview">
@@ -21,13 +21,18 @@
         </tr>
         </table>
         <hr>
-        <table class="edit">
+        
+        <table class="edit" id="edit">
         <tr>
             <td style="background-color: #ff0000"></td>
             <td style="background-color: #00ff00"></td>
             <td style="background-color: #0000ff"></td>
+            <td>Aktualis:</td>
+            <td id="actual" style="background-color: #ffffff"></td>
         </tr>
-        <script src="index.js"></script>
     </table>
+    <input type="color" id="colorselector">
+    <div id="editor"></div>
+ <script src="index.js"></script>
 </body>
 </html>
