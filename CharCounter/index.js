@@ -2,7 +2,6 @@
 const input = document.querySelector('#in')
 const outChars = document.querySelector('#outChars')
 const outNums = document.querySelector('#outNums')
-const button = document.querySelector('#button')
 
 
 input.addEventListener('input', onKlick)
