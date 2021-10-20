@@ -5,7 +5,7 @@ const outNums = document.querySelector('#outNums')
 const button = document.querySelector('#button')
 
 
-button.addEventListener('click', onKlick)
+input.addEventListener('input', onKlick)
 function onKlick(e) {
     let array=[];
     let counter=[];
