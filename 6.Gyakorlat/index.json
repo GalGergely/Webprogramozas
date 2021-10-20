@@ -1,0 +1,32 @@
+[
+    {
+        "place_id": 119609445,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 130852116,
+        "boundingbox": [
+            "47.4717392",
+            "47.4729062",
+            "19.0615345",
+            "19.0633612"
+        ],
+        "lat": "47.47241075",
+        "lon": "19.06248735708551",
+        "display_name": "ELTE Déli tömb, 1/c, Pázmány Péter sétány, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, 1117, Magyarország",
+        "class": "amenity",
+        "type": "university",
+        "importance": 1.0590794045875451,
+        "icon": "https://nominatim.openstreetmap.org/ui/mapicons//education_university.p.20.png",
+        "address": {
+            "amenity": "ELTE Déli tömb",
+            "house_number": "1/c",
+            "road": "Pázmány Péter sétány",
+            "suburb": "Lágymányos",
+            "city_district": "XI. kerület",
+            "region": "Budapest",
+            "postcode": "1117",
+            "country": "Magyarország",
+            "country_code": "hu"
+        }
+    }
+]
