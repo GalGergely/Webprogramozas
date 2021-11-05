@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labirinth</title>
+</head>
+<body>
+    <!--pause menu-->
+    <div style="position:relative;width:800px;height:800px" id="menudiv">
+        <canvas width="1000" height="800" id="menu"></canvas>
+        <input type="number" min="2" max="4" style="position:absolute;left:450px;top:300px;width:100px;" value="2" id="input">
+        <input type="checkbox" style="position:absolute;left:600px;top:450px;width:100px;" id="inputCheckbox">
+        <input type="number" min="1" max="6" style="position:absolute;left:550px;top:615px;width:100px;" value="6" id="cape">
+    </div>
+    <canvas width="1000" height="800" id="canvas" hidden></canvas>
+    <canvas width="1000" height="800" id="gameover" hidden></canvas>
+    <div id="jatekleiras" hidden>
+        <button id="backtogame">back to the game</button>
+        <h1>A játék leírása</h1>
+        <p>A katakomba szobáit egy 7x7-es négyzetrács cellái jelképezik. Minden szobában adott, hogy hány falán van ajtó. Ha két szomszédos szoba érintkező falán egy-egy ajtó van, akkor át lehet menni egyik szobából a másikba. A négyzetrács páros sorait és oszlopait el lehet tolni, a többi szoba végig rögzített a játék során. Az eltolásokkal az ajtókon keresztül utak nyílnak a szobák között, így lehet eljutni a kincsekhez. Mindegyik kérő arra törekszik, hogy a katakomba szobáinak ötletes eltolásával eljusson a kincsekhez. Aki elsőként találja meg mindahányat és kiindulópontjára sikeresen visszaérkezik az a nyertes.</p>
+        <p>A játék elején a szobákat véletlen sorrendben és véletlen irányban kirakjuk a játéktábla szabad mezőire. A szobák közül az egyik mindenképpen fölösleges marad. A játék folyamán majd mindig az éppen kimaradó szobát használjuk a többi szoba elcsúsztatására. A játékban legfeljebb 24 kincset kell megtalálni. Ezeket véletlen sorrendben felrakjuk a táblára úgy, hogy egy mezőn csak egy kincs lehet, és a sarokba nem rakhatunk, majd az ezeket jelző kártyákat összekeverjük, és egyenlő számban szétosztjuk a játékosok között, felfedve mindig a legfelső kártyát. A játékosokat jelző figurákat a tábla külön sarkaiba helyezzük.</p>
+        <p>A játék során minden játékosnak a kincsei közül azt kell megszereznie, amit az aktuálisan legfelső, mindenki által látható kincskártya mutat. Arra a mezőre kell eljutni. Ahhoz, hogy a célt elérje, a játékosnak</p>
+        <p>1.először a katakombát kell átalakítania a kimaradt szoba becsúsztatásával, és</p>
+        <p>2.lépnie mindig csak ez után szabad a figurájával.</p>
+        <p>A katakomba átalakítása a következőképpen történik: A játékos a kimaradt szobát valamelyik oldalról becsúsztathatja a játéktábla területére egy szabadon mozgó sor vagy oszlop szélén, aminek következtében az átellenes oldalon kiesik egy másik szoba. A tábla szélén nyilak jelzik azokat a helyeket, ahol a szobát be lehet csúsztatni. A szoba bárhol betolható, kivétel ott, ahol az imént kilökődött. Nem szabad tehát az előző játékos lépését rögtön „visszacsinálni". Ha a szobák eltolása során a szobával együtt egy figura is kitolódnék – akár másé, akár a miénk -, akkor ezt a figurát az ellenkező oldalról imént becsúsztatott szobába kell helyezni.</p>
+        <p>A szobák eltolását követi a játékos lépése a figurával. A katakomba minden olyan pontjáig el lehet jutni, amelyet a kiindulóponttal folyamatos járatvonal köt össze. Az ilyen járatokban tehát olyan messzire mehetünk el, amilyen messzire csak akarunk, vagyis nem számít, hogy hány szobán lépkedünk végig. Nem kötelező lépni. Figuránkat akár ott is hagyhatjuk, ahol éppen van. Egy mezőn több figura is állhat: a figurák nem ütik ki egymást. Ha valaki nem tud rögtön céljáig eljutni, akkor figurájával addig a pontig célszerű elmennie, ahol feltehetőleg jó helyzetben várhatja következő lépést. Ha valaki elérte a felfedett kincskártya által megjelölt célt, akkor felfedi a következőt, és most ehhez a célhoz igyekszik eljutni, stb.</p>
+        <p>A játék akkor ér véget, ha egy játékos az összes kincskártyájához tartozó kincset megszerezte, és visszavezette a figuráját arra mezőre, ahonnan elindult. Az a győztes, aki valamennyi kincsét megtalálta és figuráját elsőként juttatta vissza a kiindulópontra.</p>
+        <h2>Egyéb tudnivalók</h2>
+        <p>A karakteredet a nyilak segítségável tudod mozgatni.</p>
+        <p>Ha oda léptél ahova menni akartál az enter gombbal tudod "letenni" a figurádat.</p>
+        <p>A játéktér meletti nyilakkal tudod tolni a labirintus szobáit.</p>
+        <p>Az esc gomb resetként funkcionál.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
