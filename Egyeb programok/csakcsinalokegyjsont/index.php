@@ -1,6 +1,6 @@
 <?php
 //read
-include_once('contactstorage.php');
+include_once("exaplestorage.php");
 $contactStorage = new ExampleStorage();
 
 //read
@@ -20,15 +20,19 @@ $contacts = $contactStorage->findAll();
     <h1>Contacts</h1>
     <table>
         <tr>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Emails</th>
+        <?php foreach ($contacts as $contact) : ?>
+        <tr>
+            <?php foreach ($contact as $name => $value) : ?>
+                <th><?= $name ?></th>
+            <?php endforeach ?>
+        </tr>
+        <?php endforeach ?>
         </tr>
         <?php foreach ($contacts as $contact) : ?>
         <tr>
-            <td><?= $contact['name'] ?></td>
-            <td><?= $contact['phone'] ?></td>
-            <td><?= implode(', ', $contact['email']) ?></td>
+            <?php foreach ($contact as $name) : ?>
+                <td><?= $name ?></td>
+            <?php endforeach ?>
         </tr>
         <?php endforeach ?>
     </table>
