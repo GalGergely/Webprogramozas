@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    color: lightgray;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1%;
+}
+button {
+    background-color:lightgray;
+    color: teal;
+}
+p {
+    color: black;
+    text-align: center;
+}
+div {
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color:teal;
+    color: teal;
+}
+.headnemtom{
+    text-align: left;
+    padding-left: 1%;
+    color: lightgray;
+}
+a{
+    text-align: center;
+}

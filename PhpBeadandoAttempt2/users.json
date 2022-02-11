@@ -1,0 +1,44 @@
+{
+    "61cdee9df2099": {
+        "name": "admin",
+        "password": "$2y$10$W90KH0M87HZ4CSRlYdmVCOHIr0ZOj1XV7lHhaqpqX0E3lT2RmpLwq",
+        "email": "admin@elstadion.hu",
+        "roles": "admin",
+        "id": "61cdee9df2099"
+    },
+    "61cdf06e61fd0": {
+        "name": "bence",
+        "password": "$2y$10$sj6RcsRsKD0VG7JzmNYOXODXlJhf.WIn9fmQciZMu3PISqt1NMf6q",
+        "email": "anyad@anyad.hu",
+        "roles": "user",
+        "id": "61cdf06e61fd0"
+    },
+    "61cdf4f72bc81": {
+        "name": "balint",
+        "password": "$2y$10$Jav08cvxBIvAmiBGqR8hw.co3PJoDVzbIVI45A5YQWyeAXi8tQURq",
+        "email": "asd@asd.hu",
+        "roles": "user",
+        "id": "61cdf4f72bc81"
+    },
+    "61ceb788098c9": {
+        "name": "neyo",
+        "password": "$2y$10$ZvMcKAwKRKGoITAnxu0cvu0BDcVYvnVCcAqIIhvdFYyIv\/mDKUqtq",
+        "email": "galgergely252@gmail.com",
+        "roles": "user",
+        "id": "61ceb788098c9"
+    },
+    "61cec1a79d8fb": {
+        "name": "emese",
+        "password": "$2y$10$D9VKdB6MXKUkjOl8HSx6uercTH7oFp\/ZsdSo.hWD2Ge1Ba\/fgrKFe",
+        "email": "mesi@mesi.hu",
+        "roles": "user",
+        "id": "61cec1a79d8fb"
+    },
+    "61cec1e9890f6": {
+        "name": "gergo",
+        "password": "$2y$10$WyDhPzWab5qxnyy.CpbBxeFKTzMI5onJeb8PURAmQG9ZmuqgcbLNq",
+        "email": "galgergely252@gmail.com",
+        "roles": "user",
+        "id": "61cec1e9890f6"
+    }
+}

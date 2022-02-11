@@ -1,0 +1,86 @@
+{
+    "61d2d6f323412": {
+        "home": {
+            "name": "Borussia Dortmund",
+            "id": "61d2b42da1838",
+            "score": "2"
+        },
+        "away": {
+            "name": "FC Bayern M\u00fcnchen",
+            "id": "61d2b67aec052",
+            "score": "1"
+        },
+        "date": "2021-12-28",
+        "id": "61d2d6f323412"
+    },
+    "61d2d6fb3be22": {
+        "home": {
+            "name": "FC Barcelona",
+            "id": "61d2b690b970a",
+            "score": "2"
+        },
+        "away": {
+            "name": "Borussia Dortmund",
+            "id": "61d2b42da1838",
+            "score": "1"
+        },
+        "date": "2021-12-28",
+        "id": "61d2d6fb3be22"
+    },
+    "61d2d711ae9f5": {
+        "home": {
+            "name": "FC Barcelona",
+            "id": "61d2b690b970a",
+            "score": "null"
+        },
+        "away": {
+            "name": "Borussia Dortmund",
+            "id": "61d2b42da1838",
+            "score": "null"
+        },
+        "date": "2022-01-07",
+        "id": "61d2d711ae9f5"
+    },
+    "61d2d71e17d4e": {
+        "home": {
+            "name": "FC Bayern M\u00fcnchen",
+            "id": "61d2b67aec052",
+            "score": "2"
+        },
+        "away": {
+            "name": "FC Barcelona",
+            "id": "61d2b690b970a",
+            "score": "1"
+        },
+        "date": "2021-12-29",
+        "id": "61d2d71e17d4e"
+    },
+    "61d2de20f29bf": {
+        "home": {
+            "name": "Borussia Dortmund",
+            "id": "61d2b42da1838",
+            "score": "2"
+        },
+        "away": {
+            "name": "Real Madrid CF",
+            "id": "61d2b6962daaf",
+            "score": "1"
+        },
+        "date": "2021-12-10",
+        "id": "61d2de20f29bf"
+    },
+    "61d2decc3b846": {
+        "home": {
+            "name": "Borussia Dortmund",
+            "id": "61d2b42da1838",
+            "score": "3"
+        },
+        "away": {
+            "name": "Real Madrid CF",
+            "id": "61d2b6962daaf",
+            "score": "3"
+        },
+        "date": "2021-12-09",
+        "id": "61d2decc3b846"
+    }
+}
